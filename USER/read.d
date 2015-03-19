@@ -1,0 +1,12 @@
+.\read.o: ..\HARDWARE\READ\read.c
+.\read.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
+.\read.o: ..\SYSTEM\sys\sys.h
+.\read.o: ..\SYSTEM\sys\stm32f10x_map.h
+.\read.o: ..\SYSTEM\sys\stm32f10x_conf.h
+.\read.o: ..\SYSTEM\sys\stm32f10x_type.h
+.\read.o: ..\SYSTEM\sys\cortexm3_macro.h
+.\read.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+.\read.o: ..\SYSTEM\usart\usart.h
+.\read.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\read.o: ..\SYSTEM\delay\delay.h
+.\read.o: ..\HARDWARE\READ\read.h

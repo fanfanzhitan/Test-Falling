@@ -1,0 +1,96 @@
+Dependencies for Project 'TEST', Target 'Target 1': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x4B30AA72)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x--list .\stm32f10x.lst --xref -o .\stm32f10x.o --depend .\stm32f10x.d)
+F (.\test.c)(0x55097EFE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\READ -I..\HARDWARE\FALL -I..\HARDWARE\TIMER-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\test.o --omf_browse .\test.crf --depend .\test.d)
+I (..\SYSTEM\sys\sys.h)(0x515BAC7D)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x4A0282C6)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+I (..\SYSTEM\usart\usart.h)(0x54894DBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\SYSTEM\delay\delay.h)(0x515BAC94)
+I (..\HARDWARE\READ\read.h)(0x546496BB)
+I (..\HARDWARE\TIMER\timer.h)(0x54636340)
+I (..\HARDWARE\LED\led.h)(0x54CC60AE)
+I (..\HARDWARE\KEY\key.h)(0x4D2DA2A0)
+I (..\HARDWARE\FALL\fall.h)(0x54CC6419)
+F (..\SYSTEM\delay\delay.c)(0x515BAC94)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\READ -I..\HARDWARE\FALL -I..\HARDWARE\TIMER-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x4A0282C6)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (..\SYSTEM\delay\delay.h)(0x515BAC94)
+F (..\SYSTEM\sys\sys.c)(0x515BAC7D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\READ -I..\HARDWARE\FALL -I..\HARDWARE\TIMER-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\sys.o --omf_browse .\sys.crf --depend .\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x515BAC7D)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x4A0282C6)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (..\SYSTEM\usart\usart.c)(0x54CC59AA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\READ -I..\HARDWARE\FALL -I..\HARDWARE\TIMER-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x515BAC7D)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x4A0282C6)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (..\SYSTEM\usart\usart.h)(0x54894DBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+F (..\HARDWARE\LED\led.c)(0x5504F7B1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\READ -I..\HARDWARE\FALL -I..\HARDWARE\TIMER-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (..\HARDWARE\LED\led.h)(0x54CC60AE)
+I (..\SYSTEM\sys\sys.h)(0x515BAC7D)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x4A0282C6)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (..\HARDWARE\KEY\key.c)(0x54CC60E3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\READ -I..\HARDWARE\FALL -I..\HARDWARE\TIMER-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\key.o --omf_browse .\key.crf --depend .\key.d)
+I (..\HARDWARE\KEY\key.h)(0x4D2DA2A0)
+I (..\SYSTEM\sys\sys.h)(0x515BAC7D)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x4A0282C6)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (..\SYSTEM\delay\delay.h)(0x515BAC94)
+F (..\HARDWARE\READ\read.c)(0x55098528)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\READ -I..\HARDWARE\FALL -I..\HARDWARE\TIMER-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\read.o --omf_browse .\read.crf --depend .\read.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+I (..\SYSTEM\sys\sys.h)(0x515BAC7D)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x4A0282C6)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (..\SYSTEM\usart\usart.h)(0x54894DBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\SYSTEM\delay\delay.h)(0x515BAC94)
+I (..\HARDWARE\READ\read.h)(0x546496BB)
+F (..\HARDWARE\FALL\fall.c)(0x550983DD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\READ -I..\HARDWARE\FALL -I..\HARDWARE\TIMER-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\fall.o --omf_browse .\fall.crf --depend .\fall.d)
+I (..\SYSTEM\sys\sys.h)(0x515BAC7D)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x4A0282C6)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+I (..\SYSTEM\usart\usart.h)(0x54894DBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\SYSTEM\delay\delay.h)(0x515BAC94)
+I (..\HARDWARE\READ\read.h)(0x546496BB)
+I (..\HARDWARE\TIMER\timer.h)(0x54636340)
+I (..\HARDWARE\LED\led.h)(0x54CC60AE)
+I (..\HARDWARE\KEY\key.h)(0x4D2DA2A0)
+I (..\HARDWARE\FALL\fall.h)(0x54CC6419)
+F (..\HARDWARE\TIMER\timer.c)(0x550817F6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\READ -I..\HARDWARE\FALL -I..\HARDWARE\TIMER-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (..\HARDWARE\TIMER\timer.h)(0x54636340)
+I (..\SYSTEM\sys\sys.h)(0x515BAC7D)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x4A0282C6)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x4A0282C6)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (..\HARDWARE\READ\read.h)(0x546496BB)
+I (..\HARDWARE\LED\led.h)(0x54CC60AE)
